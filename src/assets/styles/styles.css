@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Stack logo and title vertically */
+    align-items: center;    /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes it a perfect circle */
+    object-fit: cover; /* Ensures the image scales properly inside the circle */
+  }
+  
+  .title {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+  }
